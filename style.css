@@ -3,33 +3,28 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+.fullpage{
     background-image: url(./bg-pattern-desktop.svg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-.fullpage{
-    width: 100%;
-    height: 50vh;
-}
+    }
+
 .left-side{
     width: 70%;
     height: 100vh;
     display: inline-block;
-   
-
 }
 .right-side{
-    width: 29%;
-    height: 100vh;
-    background-image: url("./hero-desktop.jpg" );
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    /* width: 30%;
+    height: 100vh; */
+
     
     
 }
-img{
+.logo{
     position: absolute;
     top: 40px;
     left: 70px;
