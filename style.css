@@ -7,6 +7,10 @@
     width: 70%;
     height: 100vh;
     display: inline-block;
+    background-image: url(./bg-pattern-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .right-side{
     width: 29%;
