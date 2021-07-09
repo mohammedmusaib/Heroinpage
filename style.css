@@ -3,34 +3,28 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.fullpage{
+body{
     background-image: url(./bg-pattern-desktop.svg);
-    background-size: cover;
     background-repeat: no-repeat;
-    }
-
-.left-side{
-    width: 70%;
-    height: 100vh;
-    display: inline-block;
+    background-size: cover;
 }
-.right-side{
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    /* width: 30%;
-    height: 100vh; */
 
-    
-    
+
+
+.heroin{
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 .logo{
     position: absolute;
     top: 40px;
     left: 70px;
 }
+
 h1{
-   
    width: 300px;
    font-size: 70px;
    letter-spacing: 15px;
